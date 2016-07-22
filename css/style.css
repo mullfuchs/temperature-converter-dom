@@ -1,3 +1,74 @@
-h1 {
-  color: blue;
+body{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+h1, h3 {		
+  color: white;
+}
+
+h3{
+	font-size: 30px;
+}
+
+h1{
+
+}
+
+
+.mainForm{
+	background-color: grey;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.textStuff{
+	padding-top: 25px;
+}
+
+.greenBG{
+	background-color: green;
+	color: white;
+}
+
+.redBG{
+	background-color: red;
+	color: black;
+}
+
+.roundOBJ{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: black;
+	color: white;
+	display: inline-block;
+	float: center;
+	margin: 10px 10px 10px 10px;
+}
+
+input[type=radio], select{
+	margin-top: 45px;
+}
+
+input[type=text], select {
+    width: 100px;
+    height: 100px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: center;
+}
+
+input[type=submit], select{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 0px solid black;
+	font-size: 50px;
 }
